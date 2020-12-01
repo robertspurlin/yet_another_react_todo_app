@@ -14,6 +14,7 @@
   "devDependencies": {
     "@babel/cli": "^7.12.8",
     "@babel/core": "^7.12.9",
+    "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "^8.2.2",
@@ -24,11 +25,14 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-hot-loader": "^4.13.0",
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
-    "redux-persist": "^6.0.0"
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
   }
 }
