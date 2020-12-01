@@ -7,8 +7,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import { todos, isLoading } from './todos/reducers';
 
 const reducers = {
-    todos,
-    isLoading
+    todos
 };
 
 const persistConfig = {
